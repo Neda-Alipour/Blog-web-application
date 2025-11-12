@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") %>
+
+<h2 class="fw-bold text-center gradient-text mb-4">Create a New Post</h2>
+
+<form action="/create-post" method="POST" class="mx-auto post-form p-4 shadow-sm rounded-4 bg-white">
+  <div class="mb-3">
+    <label class="form-label fw-semibold">Title</label>
+    <input type="text" name="title" class="form-control" placeholder="Enter a catchy title..." required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label fw-semibold">Content</label>
+    <textarea name="content" class="form-control" rows="5" placeholder="Write something amazing..." required></textarea>
+  </div>
+  <button class="btn btn-gradient w-100 mt-2">Publish</button>
+</form>
+
+<%- include("partials/footer.ejs") %>

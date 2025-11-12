@@ -1,0 +1,46 @@
+body {
+  background: #fef7fb;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, #b565f7, #e44cc4);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #b565f7, #e44cc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.post-card {
+  background: #fff;
+  border-radius: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(180, 60, 200, 0.15);
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #b565f7, #e44cc4);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: opacity 0.2s;
+}
+
+.btn-gradient:hover {
+  opacity: 0.85;
+}
+
+.post-form {
+  max-width: 600px;
+}
+
+textarea {
+  resize: none;
+}
