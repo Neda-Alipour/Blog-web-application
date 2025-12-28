@@ -27,7 +27,7 @@ A minimalist yet elegant blog app built using **Node.js**, **Express**, **EJS**,
 
 ---
 
-## 🚀 Features
+## Features
 ✅ Clean, responsive, minimalist UI with a pinkish-purple color palette  
 ✅ Create, edit, and delete posts   
 ✅ Auto-dismissing success alerts after actions  
@@ -36,7 +36,7 @@ A minimalist yet elegant blog app built using **Node.js**, **Express**, **EJS**,
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 | Layer | Technology |
 |-------|-------------|
 | Backend | Node.js, Express.js |
@@ -46,7 +46,7 @@ A minimalist yet elegant blog app built using **Node.js**, **Express**, **EJS**,
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 ```
 
 blog-app/
@@ -89,7 +89,7 @@ http://localhost:3000
 
 ---
 
-## 💅 Design Language
+## Design Language
 
 * **Base colors:** soft lavender (`#b565f7`) & pink (`#e44cc4`)
 * **Accent style:** gradient backgrounds, rounded corners, subtle shadows
@@ -97,7 +97,7 @@ http://localhost:3000
 
 ---
 
-## 💾 Data Persistence
+## Data Persistence
 
 Currently, posts are stored **in-memory** (they reset when you restart).
 You can easily extend it with:
@@ -108,7 +108,7 @@ You can easily extend it with:
 
 ---
 
-## 🔐 User Interactions
+## User Interactions
 
 | Action        | Method | Description                                  |
 | ------------- | ------ | -------------------------------------------- |
@@ -121,7 +121,7 @@ You can easily extend it with:
 
 ---
 
-## 🧠 Future Ideas
+## Future Ideas
 
 ✨ Add persistent storage (MongoDB or SQLite)
 ✨ Add authentication (login/signup)
@@ -131,20 +131,20 @@ You can easily extend it with:
 
 ---
 
-## 👨‍💻 Credits
+## Credits
 
 Built by **Neda Alipour** using 💜 Node, Express & EJS.
 UI theme inspired by a soft purple gradient aesthetic.
 
 ---
 
-## 🧾 License
+## License
 
 This project is open-source and free to modify for learning and personal use.
 
 ---
 
-## 🧾 **2. Cheat Sheet (Node.js + Express + EJS)**
+## **2. Cheat Sheet (Node.js + Express + EJS)**
 
 ### 🟩 Node.js Basics
 | Concept | Description |
@@ -207,7 +207,7 @@ This project is open-source and free to modify for learning and personal use.
 
 ---
 
-### 🧩 Good Practices Recap
+### Good Practices Recap
 
 ✅ Use `partials/` for headers and footers
 ✅ Always sanitize/validate input before storing
